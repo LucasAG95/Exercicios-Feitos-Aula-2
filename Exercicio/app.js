@@ -27,3 +27,4 @@ function somandoNumeros() {
     alert(`A soma de ${num1} + ${num2} = ${resultado}.`)
 }
 //Testando o pull do github
+// Teste de enviando para o github com push
