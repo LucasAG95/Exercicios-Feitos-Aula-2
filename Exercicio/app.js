@@ -27,5 +27,3 @@ function somandoNumeros() {
     alert(`A soma de ${num1} + ${num2} = ${resultado}.`)
 }
 
-//Ola meu bem
-
