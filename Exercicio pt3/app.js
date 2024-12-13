@@ -18,7 +18,7 @@ function numeroFatorial(fatorial) {
     }
     console.log(resultado);
 }
-let fatorial = parseInt(prompt('Digite um numero:'));
+let fatorial = parseInt(prompt('Digite um numero para fazer fatorial:'));
 numeroFatorial(fatorial);
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -68,3 +68,12 @@ function tabuada(numero) {
 }
 let numero = parseInt(prompt('Quer ver a tabuada de qual numero?'))
 tabuada(numero);
+
+let resultadofat = 1;
+let contador = 0;
+let number = parseInt(prompt('Digite um numero'));
+while (contador < number) {
+    contador++;
+    resultadofat = resultadofat * contador;
+    console.log(resultadofat);
+}
